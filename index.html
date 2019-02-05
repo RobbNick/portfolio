@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicolas Robitaille - Intégrateur/programmeur Web</title>
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Nicolas Robitaille">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <!-- Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/loading_jelly.css" />
+  <link rel="stylesheet" type="text/css" href="css/aos.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <div id="loading">
+    <div id="text">
+      <h1>Chargement</h1>
+    </div>
+    <div id="loader">
+      <div id="shadow"></div>
+      <div id="box"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Nicolas Robitaille</a> </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="#about">À propos</a> </li>
+            <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+            <li> <a class="page-scroll" href="#experience">Expérience</a> </li>
+            <!-- <li> <button class="btn btn-default btn-lg francais" type="button">fr</button> </li> -->
+            <!-- <li id="anglais" class="anglais"> <a href="javascript:void(0);" onclick="changerLangueAnglais()">En</a> </li>
+            <li id="francais" class="francais"> <a href="javascript:void(0);" onclick="changerLangueFrancais()">fr</a> </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="top">
+  </div>
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Bonjour, je m'appelle <span class="name">Nicolas Robitaille</span></h1>
+            <p>Intégrateur/programmeur Web</p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Continuer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Section à propos -->
+  <div id="about" data-aos="fade">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>À propos</h2>
+        <hr>
+      </div>
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="about-text">
+            <p class="text-center">Depuis que je suis entré au cégep de Sainte-Foy dans la technique d'intégration multimédia, je suis fasciné par le web. J'en ai fait ma force en me spécialisant dans la programmation front-end (CSS,
+              SASS, etc.), back-end (serveur, etc.) et dans les extensions Adobe. Je privilégie l’esthétique, la simplicité et l'utilité lorsque je produis un projet pour des clients.</p>
+            <p class="text-center">Je crois fermement que la simplicité est la clé de l’utilisabilité et que le design est vraiment axé sur la résolution de problèmes et l'amélioration de la vie des gens.</p>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a href="https://www.facebook.com/nicolas.robitaille.96" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/NicoChoco64" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://github.com/RobbNick" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://vimeo.com/user56436294" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center center" data-aos="fade">
+        <h2>Portfolio</h2>
+        <p>Utiliser le carrousel pour en savoir plus</p>
+        <hr>
+      </div>
+      <div class="slider" data-aos="fade-up">
+        <div>
+          <img src="img/portfolio/01/01-large.jpg" alt="Projet Synthèse">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/01/01-sousImage1.jpg" alt="Projet Synthèse">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/01/01-sousImage2.jpg" alt="Projet Synthèse">
+              </div>
+            </div>
+          </div>
+          <h3>01.Projet Synthèse</h3>
+          <p><strong>Date</strong>&nbsp;: Mars 2018.</p>
+          <p>Pour notre dernier projet, nous devions créer le site Web de notre programme individuellement.</p>
+          <p>J'ai conçu le site Web, intégré mon design et tout programmé à partir de zéro. Le site Web comprend un formulaire de contact, un carrousel composé des différents projets réaliser par mes collègues et un flux de média social. J'ai choisi
+            les couleurs contrastées en fonction des tendances en matière de design cette année. J'ai également décidé de créer un site Web d'une page, divisé en sections rétractables, pour
+            essayer de modifier le site Web et de faire face à la limitation du contenu par rapport aux années précédentes.</p>
+          <p>Je ne peux malheureusement pas vous fournir de lien, mais l'idée principale est représentée dans les images suivantes.</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: JQuery, Javascript, Typescript, PHP, HTML 5, CSS3.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Illustrator, Photoshop, Sketch.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/02/02-large.jpg" alt="Quiz">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/02/02-sousImage1.jpg" alt="Quiz">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/02/02-sousImage2.jpg" alt="Quiz">
+              </div>
+            </div>
+          </div>
+          <h3>02.Application Web - Quiz</h3>
+          <p><strong>Date</strong>&nbsp;: Décembre 2017.</p>
+          <p>Dans le cadre du cours de réalisation de produits numériques interactifs III de la technique d'intégration multimédia du cégep Sainte-Foy. J'avais comme mandat de créer une application ayant comme principal but la résolution de questions
+            avec plusieurs choix de réponses (un quiz).</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: PHP, Javascript, jQuery, CSS3, HTML, MySQL, Heroku, ServiceWorkers.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Illustrator, Photoshop.</p>
+          <p><strong><a href="https://quiz-star-wars.herokuapp.com" target="_blank" class="btn btn-default btn-lg page-scroll">Lien vers le Quiz</a></strong></p>
+        </div>
+        <div>
+          <img src="img/portfolio/03/03-large.jpg" alt="Bibliothèque en ligne">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/03/03-sousImage1.jpg" alt="Bibliothèque en ligne">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/03/03-sousImage2.jpg" alt="Bibliothèque en ligne">
+              </div>
+            </div>
+          </div>
+          <h3>03.Design Web - Bibliothèque en ligne</h3>
+          <p><strong>Date</strong>&nbsp;: Mars 2017.</p>
+          <p>Le mandat de ce projet consistait à concevoir le site Web d'une bibliothèque en ligne. J'ai décidé d'utiliser des couleurs sobres en conjonction avec des couleurs avec un contraste élevé. Les images sont mises en avant puisqu'il
+            s'agit d'une bibliothèque. Je voulais un design complet, mais doux pour les yeux. Rien d’imposant, puisque le contenu était plutôt massif. C'était en équipe de trois, je m'occupais de l'apparence et du contenu du site (front-end) alors
+            que mes coéquipiers s'occupaient du côté serveur (back-end).</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: PHP, Javascript, jQuery, CSS3, HTML, MySQL.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Axure, Sketch.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/04/04-large.jpg" alt="Brûlerie TIM">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/04/04-sousImage1.jpg" alt="Brûlerie TIM">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/04/04-sousImage2.jpg" alt="Brûlerie TIM">
+              </div>
+            </div>
+          </div>
+          <h3>04.Design Web - Brûlerie TIM</h3>
+          <p><strong>Date</strong>&nbsp;: Septembre 2016.</p>
+          <p>Pour ce projet, j'avais comme mandat de créer le design pour un site Web fictif d'une brûlerie de la technique d'intégration multimédia. Puisque le contenu était abondant, je suis allé pour une apparence sobre et des couleur chaude pour
+            accentuer le sentiment chaleureux d'une brûlerie. Les images sont égalements au coeur du site puisqu'il s'agit principalement d'un site de vente.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Illustrator, Photoshop, Sketch.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/05/05-large.jpg" alt="Cafétéria">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/05/05-sousImage1.jpg" alt="Cafétéria">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/05/05-sousImage2.jpg" alt="Cafétéria">
+              </div>
+            </div>
+          </div>
+          <h3>05.Design Web - Cafétéria</h3>
+          <p><strong>Date</strong>&nbsp;: Octobre 2016.</p>
+          <p>Pour ce projet, je devais concevoir une application fictive pour la cafétéria du cégep de Sainte-Foy. Il n'y avait aucune contrainte sur le style, les couleurs, les polices de caractères, etc. J'ai décidé d'utiliser des tons plus
+            sombres pour les couleurs principales, chacune des couleurs représentes une catégorie de repas (végétarien, pâte, etc.).</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Illustrator, Photoshop, Sketch.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/06/06-large.jpg" alt="Jeux 2D">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/06/06-sousImage1.jpg" alt="Jeux 2D">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/06/06-sousImage2.jpg" alt="Jeux 2D">
+              </div>
+            </div>
+          </div>
+          <h3>06.Jeux 2D</h3>
+          <p><strong>Date</strong>&nbsp;: Mai 2017.</p>
+          <p>Ce projet était individuel et réalisé dans le cadre d'un cours de programmation de deuxième année. Cela consistait à créer un jeu en 2D à la troisième personne à partir de zéro. Ce qui signifie que nous devions créer tous les médias,
+            programmer le jeu et intégrer la page Web dans laquelle le jeu est affiché. Nous devions créer une histoire, alors j'ai décidé de créer un jeu d'action se passant pendant la deuxième Guerre Mondiale. Le protagoniste a pour objectif de
+            libérer une ville contrôlée par les nazis.</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: Programmation orientée objet, Javascript, PHP, HTML5, CSS3.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: Illustrator, Animate.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/07/07-large.gif" alt="Motion Design">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/07/07-sousImage1.jpg" alt="Motion Design">
+              </div>
+              <div class="col-md-6">
+                <img src="img/portfolio/07/07-sousImage2.jpg" alt="Motion Design">
+              </div>
+            </div>
+          </div>
+          <h3>07.Motion Design - Animation liquide</h3>
+          <p><strong>Date</strong>&nbsp;: Mars 2018.</p>
+          <p>Dans le cadre du cours de <i>projet de recherche</i> de la technique d'intégration multimédia, j'avais comme but d'expérimenter certains aspects techniques en lien avec mon programme. Je me suis alors spécialisé en <i>motion design</i>. Étant un passionné de ce domaine depuis longtemps, ce ne fût pas un choix difficile. Cette animation est ma 2<sup>e</sup> expérimentation sur ce sujet. J'ai utilisé des tutoriels pour m'aider à créer ce test.</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: PHP, Javascript, jQuery, CSS3, HTML, MySQL, Heroku, ServiceWorkers.</p>
+        </div>
+        <div>
+          <img src="img/portfolio/08/08-large.gif" alt="Motion Design">
+          <div class="sousImage row">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="img/portfolio/08/08-sousImage1.jpg" alt="Motion Design">
+              </div>
+            </div>
+          </div>
+          <h3>08.Motion Design - initiale</h3>
+          <p><strong>Date</strong>&nbsp;: Février 2018.</p>
+          <p>Dans le cadre du cours de <i>projet de recherche</i> de la technique d'intégration multimédia, j'avais comme but d'expérimenter certains aspects techniques en lien avec mon programme. Je me suis alors spécialisé en <i>motion design</i>.Cette animation est ma 1<sup>e</sup> expérimentation sur ce sujet.</p>
+          <p><strong>Langage(s) de programmation</strong>&nbsp;: PHP, Javascript, jQuery, CSS3, HTML, MySQL, Heroku, ServiceWorkers.</p>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="col-md-6 col-md-offset-3">
+                <img id="dessin" src="img/portfolio/09/dessin1.jpg" alt="Dessin 1">
+              </div>
+            </div>
+          </div>
+          <h3>09.Dessin - Ian Mckellen</h3>
+          <p><strong>Date</strong>&nbsp;: Février 2015.</p>
+          <p>Je suis un grand amateur de la trilogie du <i>Seigneur des anneaux</i>. Après avoir réécouté le film pour une innombrable de fois, j'ai eu envie de faire le portait de l'un de mes acteurs préférés jouant Gandalf le gris dans la trilogie, Ian Mckellen.</p>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="col-md-6 col-md-offset-3">
+                <img id="dessin" src="img/portfolio/10/dessin2.jpg" alt="Dessin 1">
+              </div>
+            </div>
+          </div>
+          <h3>10.Dessin - La planète Terre dans la paume de ma main</h3>
+          <p><strong>Date</strong>&nbsp;: Octobre 2016.</p>
+          <p>Dans le cadre d'un cours de dessin au cégep. On avait comme devoir de faire un dessin ayant un certain lien avec notre profession future. Mon futur métier étant plutôt dans l'informatique, j'ai alors réalisé ce dessin. Il représente l'être humain ayant accès à l'information partout dans le monde.</p>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="col-md-6 col-md-offset-3">
+                <img id="dessin" src="img/portfolio/11/dessin3.jpg" alt="Dessin 1">
+              </div>
+            </div>
+          </div>
+          <h3>11.Dessin - Espoir</h3>
+          <p><strong>Date</strong>&nbsp;: Juillet 2017.</p>
+          <p>J'ai créé ce dessin pour une thèse dans un de mes cours de francais au collégial. Je voulais aborder le thème de l'espoir, j'ai alors représenté une femme ayant l'espoir au fond du coeur.</p>
+        </div>
+        <div>
+          <div class="resp-container">
+            <iframe class="resp-iframe" src="https://player.vimeo.com/video/208012500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <h3>12.Animation - logo android</h3>
+          <p><strong>Date</strong>&nbsp;: Mars 2016.</p>
+          <p>Le mandat de ce projet était de créer une animation de 15 à 20 secondes pour la marque de notre choix. J'ai choisi Android pour la simplicité de son logo puisque ça apporte beaucoup plus de liberté sur le niveau créatif. J'ai décidé de
+            lui donner un aspect jovial et énergique en le faisant apparaître comme une fusée saluant le visionneur par la suite. C'était un projet individuel, alors j'ai conçu l'idée principale, créé les médias (j'ai reproduit le logo original) et
+            les ai animés.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: After Effetcs, Premiere Pro.</p>
+        </div>
+        <div>
+          <div class="resp-container">
+            <iframe class="resp-iframe" src="https://player.vimeo.com/video/218181857" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <h3>13.Vidéo promotionnelle de la TIM</h3>
+          <p><strong>Date</strong>&nbsp;: Décembre 2017.</p>
+          <p>Dans le cadre du cours de montage médiatique plurimédia, j'avais comme mandat de créer une courte publicité de ma technique dans le but de mettre en valeur ce domaine particulier à l'aide des logiciela d'Adobe comme Illustrator, After
+            Effects, etc.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: After Effetcs, Premiere Pro.</p>
+        </div>
+        <div>
+          <div class="resp-container">
+            <iframe class="resp-iframe" src="https://player.vimeo.com/video/195875052" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <h3>14.Court métrage</h3>
+          <p><strong>Date</strong>&nbsp;: Décembre 2016.</p>
+          <p>Dans le cadre du cours de montage vidéo, j'avais comme mandat de créer un court-métrage de mon choix ayant pour objectif de mettre en premier plan tout ce que j'avais appris pendant la session. C’était un prétexte pour nous inciter à
+            explorer les aspects moins conventionnels du montage vidéo.</p>
+          <p>Les thèmes que j'ai choisis d'explorer étaient la nature et l'aventure, avec une fin inattendue.</p>
+          <p><strong>Logiciel(s) utilisé pour les médias</strong>&nbsp;: After Effetcs, Premiere Pro.</p>
+          <p><strong>Caméra</strong>&nbsp;: Nikon 3200.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section expérience -->
+  <div id="experience" class="text-center">
+    <div class="container">
+      <div class="section-title center" data-aos="fade">
+        <h2>Expérience</h2>
+        <hr>
+      </div>
+      <div class="row" data-aos="fade-right">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <h4>Présent <br>
+                  - <br>
+                  2018 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>téluq</h4>
+                  <h4 class="subheading">Technicien en informatique</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Créer divers sites de cours pour les étudiants de la téléuniversité à l'aide de l'interface fournis les graphistes.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>2018 <br>
+                  - <br>
+                  2017 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Bégin Édition International Inc.</h4>
+                  <h4 class="subheading">Intégrateur/programmeur web</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Intégrer une base de donnée et un site web à partir d’une maquette. Créer l’interface de la base de donnée, etc.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section-title center" data-aos="fade">
+        <h2>Éducation</h2>
+        <hr>
+      </div>
+      <div class="row" data-aos="fade-left">
+        <div class="col-lg-12">
+          <ul class="timeline">
+
+            <!-- Section éducation -->
+
+            <li>
+              <div class="timeline-image">
+                <h4>Juin 2018 <br>
+                  - <br>
+                  2015 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Cégep de Sainte-Foy (Québec)</h4>
+                  <h4 class="subheading">Techniques d’intégration multimédia - Web et apps</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Diplôme d'études collégiales (DEC)</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>2015 <br>
+                  - <br>
+                  2010 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>École secondaire les Etchemins</h4>
+                  <h4 class="subheading">Parcours régulier</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Diplôme d'études secondaires (DES)</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Copyright &copy; 2019 Nicolas Robitaille</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-sine',
+      delay: '250'
+    });
+  </script>
+</body>
+
+</html>
