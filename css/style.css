@@ -496,22 +496,46 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* experience Section */
-#experience {
+/* experiences Section */
+#experiences {
 	overflow: hidden;
 	padding: 80px 0;
 	background: #f6f6f6;
 }
-#experience hr {
+#experiences hr {
 	background: #7bc3d1;
 }
-.experience-box h4 {
+.experiences-box h4 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 400;
 	margin-left: 5px;
 }
-.experience-box span.count {
+.experiences-box span.count {
+	font-size: 52px;
+	font-weight: 600;
+	display: block;
+	color: #121d1f;
+	padding: 0;
+	margin: 0;
+}
+
+/* formations Section */
+#formations {
+	overflow: hidden;
+	padding: 80px 0;
+	background: #ffffff;;
+}
+#formations hr {
+	background: #7bc3d1;
+}
+.formations-box h4 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+.formations-box span.count {
 	font-size: 52px;
 	font-weight: 600;
 	display: block;
