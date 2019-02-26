@@ -71,7 +71,8 @@ $(document).ready(function(){
           arrows: true,
           centerMode: true,
           centerPadding: '10px',
-          slidesToShow: 1
+          slidesToShow: 1,
+          adaptiveHeight: true
         }
       },
     {
@@ -81,7 +82,8 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 1,
+        adaptiveHeight: true
       }
     },
     {
@@ -91,7 +93,8 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '30px',
-        slidesToShow: 1
+        slidesToShow: 1,
+        adaptiveHeight: true
       }
     }
   ]
