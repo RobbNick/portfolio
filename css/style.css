@@ -748,6 +748,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		width: 52% !important;
 		margin-left: 25%;
 	}
+	#portfolio{
+		padding-top: 80px;
+		padding-bottom: 0;
+	}
 }
 @media(min-width:768px) {
 .intro {
