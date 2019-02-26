@@ -375,6 +375,9 @@ hr {
 	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
+#portfolio .container {
+	height: auto;
+}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -726,7 +729,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     height: 100%;
     border: 0;
 }
-/* Langue */
 
 /* Media Queries */
 @media(max-width:992px) {
@@ -737,9 +739,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	p {
 		font-size: 14px;
 	}
-	#portfolio .container {
-		height: 1025px;
-	}
 	.sousImage {
 		display: none;
 	 }
@@ -748,9 +747,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	#dessin {
 		width: 52% !important;
 		margin-left: 25%;
-	}
-	#portfolio .container {
-		height: auto;
 	}
 }
 @media(min-width:768px) {
