@@ -739,10 +739,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	p {
 		font-size: 14px;
 	}
-	#portfolio{
-		padding-top: 80px;
-		padding-bottom: 0;
-	}
 	.sousImage {
 		display: none;
 	 }

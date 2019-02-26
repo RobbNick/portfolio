@@ -87,6 +87,7 @@ $(document).ready(function(){
     {
       breakpoint: 480,
       settings: {
+        dots: false,
         arrows: false,
         centerMode: true,
         centerPadding: '30px',
