@@ -62,6 +62,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '10px',
     slidesToShow: 1,
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 992,
