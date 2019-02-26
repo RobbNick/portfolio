@@ -67,7 +67,7 @@ $(document).ready(function(){
       {
         breakpoint: 992,
         settings: {
-          dots: false,
+          dots: true,
           arrows: true,
           centerMode: true,
           centerPadding: '10px',
@@ -78,7 +78,7 @@ $(document).ready(function(){
     {
       breakpoint: 768,
       settings: {
-        dots: false,
+        dots: true,
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
@@ -89,7 +89,7 @@ $(document).ready(function(){
     {
       breakpoint: 480,
       settings: {
-        dots: false,
+        dots: true,
         arrows: false,
         centerMode: true,
         centerPadding: '30px',
