@@ -10,6 +10,9 @@ body, html {
 	margin-left: 0;
 	margin-right: 0;
 }
+.visuallyhidden {
+	display: none;
+}
 h1 {
 	font-weight: 700;
 }
