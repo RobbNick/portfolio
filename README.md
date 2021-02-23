@@ -5,6 +5,8 @@
 
 Portfolio numérique de Nicolas Robitaille. Créer dans le but d'être un support visuel sur la présentation de mes compétences dans le domaine du Web.
 
+* [Lien vers le portfolio numérique](https://robbnick.github.io/portfolio/)
+
 ### Construit avec
 
 * [jQuery](https://jquery.com/)
