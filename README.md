@@ -3,7 +3,7 @@
 <!-- À propos du projet -->
 ## À propos du projet
 
-Code source de mon porfolio.
+Portfolio numérique de Nicolas Robitaille. Créer dans le but d'être un support visuel sur la présentation de mes compétences dans le domaine du Web.
 
 ### Construit avec
 
